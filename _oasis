@@ -1,6 +1,6 @@
 OASISFormat: 0.3
 Name:        quickcheck
-Version:     1.0.0
+Version:     1.0.1
 Synopsis:    OCaml port of Haskell QuickCheck for probabilistic testing
 Authors:     Alan Falloon, Roma Sokolov
 License:     MIT
@@ -26,5 +26,5 @@ Executable test
 
 SourceRepository github
   Type:     git
-  Location: git://github.com/avsm/ocaml-quickcheck.git
-  Browser:  https://github.com/avsm/ocaml-quickcheck
+  Location: git://github.com/domsj/ocaml-quickcheck.git
+  Browser:  https://github.com/domsj/ocaml-quickcheck

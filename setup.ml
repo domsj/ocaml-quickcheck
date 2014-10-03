@@ -5578,7 +5578,7 @@ let setup_t =
           ocaml_version = None;
           findlib_version = None;
           name = "quickcheck";
-          version = "1.0.0";
+          version = "1.0.1";
           license =
             OASISLicense.DEP5License
               (OASISLicense.DEP5Unit
@@ -5701,9 +5701,9 @@ let setup_t =
                    {
                       src_repo_type = Git;
                       src_repo_location =
-                        "git://github.com/avsm/ocaml-quickcheck.git";
+                        "git://github.com/domsj/ocaml-quickcheck.git";
                       src_repo_browser =
-                        Some "https://github.com/avsm/ocaml-quickcheck";
+                        Some "https://github.com/domsj/ocaml-quickcheck";
                       src_repo_module = None;
                       src_repo_branch = None;
                       src_repo_tag = None;
