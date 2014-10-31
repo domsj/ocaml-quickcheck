@@ -28,7 +28,7 @@ let show_triple show_fst show_snd show_trd (fst, snd, trd) =
   Printf.sprintf "(%s, %s, %s)" sf ss st
 
 let show_list show_elt lst =
-  Printf.sprintf "[%s]" (join_string_list (List.map show_elt lst) ";")
+  Printf.sprintf "[%s]" (join_string_list (List.map show_elt lst) "; ")
 
 type 'a arbitrary = 'a gen
 
