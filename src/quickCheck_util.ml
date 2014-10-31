@@ -65,7 +65,7 @@ let join_string_list lst sep =
   let rec to_string l acc =
     match l with
       | a::[] -> sprintf "%s%s" acc a
-      | a::t -> to_string t (sprintf "%s%s%s " acc a sep)
+      | a::t -> to_string t (sprintf "%s%s%s" acc a sep)
       | [] -> acc
   in to_string lst ""
 
