@@ -1,6 +1,6 @@
 # OASIS_START
 # DO NOT EDIT (digest: d9303a0ecb8631fea5542cef00ef0e16)
-version = "1.0.1"
+version = "1.0.2"
 description = "OCaml port of Haskell QuickCheck for probabilistic testing"
 requires = "optcomp"
 archive(byte) = "quickcheck.cma"

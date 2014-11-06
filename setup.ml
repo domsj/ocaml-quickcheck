@@ -5578,7 +5578,7 @@ let setup_t =
           ocaml_version = None;
           findlib_version = None;
           name = "quickcheck";
-          version = "1.0.1";
+          version = "1.0.2";
           license =
             OASISLicense.DEP5License
               (OASISLicense.DEP5Unit
