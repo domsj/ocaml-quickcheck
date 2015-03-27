@@ -14,8 +14,8 @@ Library quickcheck
   Modules:         QuickCheck,
                    QuickCheck_gen,
                    QuickCheck_util
-  NativeOpt:       -w @a -g
-  ByteOpt:         -w @a -g
+  NativeOpt:       -w @1..49 -g
+  ByteOpt:         -w @1..49 -g
 
 Executable test
   Path: tests/
